@@ -28,3 +28,5 @@ elif operación == "/":
 
 else:
     print("Esta calculadora no esta programada para realizar esa operación.!Vuelva pronto¡.")
+
+input()
