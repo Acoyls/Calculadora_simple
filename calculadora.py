@@ -23,8 +23,11 @@ elif operación == "*":
 elif operación == "/":
     num1 = float(input("Ingrese el primer valor a divir:"))
     num2 = float(input("Ingrese el segundo valor:"))
-    resultado = num1 / num2
-    print(f"{num1}/{num2} = {resultado}")
+    if num2 == 0:
+        print(f"{num1} / {num2} = 0")
+    if num2 > 0:
+        resultado = num1 / num2
+        print(f"{num1} / {num2} = {resultado}")
 
 else:
     print("Esta calculadora no esta programada para realizar esa operación.!Vuelva pronto¡.")
