@@ -25,7 +25,7 @@ elif operación == "/":
     num2 = float(input("Ingrese el segundo valor:"))
     if num2 == 0:
         print(f"{num1} / {num2} = 0")
-    if num2 > 0:
+    elif num2 > 0:
         resultado = num1 / num2
         print(f"{num1} / {num2} = {resultado}")
 
